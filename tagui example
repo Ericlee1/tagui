@@ -1,0 +1,5 @@
+//my first TagUI script!
+https://google.com
+enter //input[@id="lst-ib"] as google weather singapore[enter]
+read //span[@id="wob_tm"] to temperature
+echo "Current temperature in Singapore = " + temperature
